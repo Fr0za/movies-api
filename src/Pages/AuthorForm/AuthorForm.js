@@ -86,7 +86,7 @@ const AuthorForm = () => {
             <Form.Control type="email" value={email} onChange={emailHandler} />
           </Form.Group>
           <Form.Group controlId="picture">
-            <Form.Label>Picture:</Form.Label>
+            <Form.Label>Picture URL:</Form.Label>
             <Form.Control type="url" value={picture} onChange={pictureHandler} />
           </Form.Group>
           <Button variant="primary" type="submit">

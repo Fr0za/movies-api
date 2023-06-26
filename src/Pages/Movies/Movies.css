@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.Container-Movies{
+    display: flex;
+    flex-wrap: wrap;
+}
+.movies-card{
+    margin: 5px;
+}
+
+.action-button {
+    width: 100%;
+  }
