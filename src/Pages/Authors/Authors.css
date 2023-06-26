@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.Container-Authors{
+    display: flex;
+    flex-wrap: wrap;
+}
+.author-card{
+    margin: 5px;
+}
+
+.action-button {
+    width: 100%;
+  }
