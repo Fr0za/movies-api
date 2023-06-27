@@ -29,11 +29,11 @@
       "picture": "https://www.indiewire.com/wp-content/uploads/2020/12/george-lcuas.png"
     },
     {
-      "id": 5,
       "name": "George Lucas",
-      "username": "GeorgeLucas",
+      "username": "George Lucas",
       "email": "GeorgeLucas@starwars.org",
-      "picture": "https://www.indiewire.com/wp-content/uploads/2020/12/george-lcuas.png"
+      "picture": "https://www.indiewire.com/wp-content/uploads/2020/12/george-lcuas.png",
+      "id": 5
     }
   ],
   "movies": [

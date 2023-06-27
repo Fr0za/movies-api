@@ -1,8 +1,10 @@
-import React from 'react'
+import Container from 'react-bootstrap/Container';
 
 const Reviews = () => {
   return (
-    <div>Reviews</div>
+    <Container>
+      
+    </Container>
   )
 }
 
