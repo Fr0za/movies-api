@@ -18,6 +18,7 @@ const PageHeader = () => {
             <Nav.Link as={NavLink} to="/" exact className="nav-link hover-underline">Home</Nav.Link>
             <Nav.Link as={NavLink} to="/authors" className="nav-link hover-underline">Authors</Nav.Link>
             <Nav.Link as={NavLink} to="/movies" className="nav-link hover-underline">Movies</Nav.Link>
+            <Nav.Link as={NavLink} to="/reviews" className="nav-link hover-underline">Reviews</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

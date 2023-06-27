@@ -15,6 +15,10 @@ import Authors from './Pages/Authors/Authors';
 import Author from './Pages/Author/Author';
 import AuthorForm from './Pages/AuthorForm/AuthorForm';
 import Movies from './Pages/Movies/Movies';
+import Movie from './Pages/Movie/Movie';
+import MovieForm from './Pages/MovieForm/MovieForm';
+import Reviews from './Pages/Reviews/Reviews';
+
 
 
 function App() {
@@ -31,6 +35,9 @@ function App() {
         <Route path='/authorform' element={<AuthorForm />} />
         <Route path='/authorform/:id' element={<AuthorForm />} />
         <Route path='/movies' element={<Movies />} />
+        <Route path='/movies/:id' element={<Movie />} />
+        <Route path='/movieform' element={<MovieForm />} />
+        <Route path='/reviews' element={<Reviews />} />
 
 
         <Route path='*' element={
